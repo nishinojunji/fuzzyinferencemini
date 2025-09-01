@@ -40,6 +40,8 @@ Fuzzyrule fuzzyrule_init();
 Fuzzyrule fuzzyrule_set_zenkennum(Fuzzyrule r, int num);
 Fuzzyrule fuzzyrule_set_zenken(Fuzzyrule r, Fuzzyset a[]);
 Fuzzyrule fuzzyrule_set_koken(Fuzzyrule r, double koken);
+double fuzzyrule_get_koken(Fuzzyrule r);
+
 
 Fuzzysystem fuzzysystem_init();
 Fuzzysystem fuzzysystem_add(Fuzzysystem s, Fuzzyrule r);

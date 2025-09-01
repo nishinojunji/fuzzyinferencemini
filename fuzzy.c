@@ -94,6 +94,9 @@ Fuzzyrule fuzzyrule_set_koken(Fuzzyrule r, double koken){
   return r;
 }
 
+double fuzzyrule_get_koken(Fuzzyrule r){
+  return r.koken;
+}
 
 
 
